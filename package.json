@@ -7,7 +7,7 @@
   "keywords": [
     "animation",
     "frame",
-    "interval"
+    "interval",
     "rAF",
     "requestAnimationFrame",
     "setInterval",
