@@ -1,0 +1,39 @@
+{
+  "name": "newtonjs-raf",
+  "description": "RequestAnimationFrame polyfill. Kinda.",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "animation",
+    "frame",
+    "interval"
+    "rAF",
+    "requestAnimationFrame",
+    "setInterval",
+    "setTimeout",
+    "timeout"
+  ],
+
+  "author": {
+    "name": "Andrew Lawson",
+    "url": "http://adlawson.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newtonjs/raf.git"
+  },
+
+  "main": "./lib/raf.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers coffee:coffee-script --ui tdd --reporter spec --globals window test",
+    "compile": "./node_modules/.bin/coffee -co lib src"
+  },
+
+  "devDependencies": {
+    "chai": "1.4.x",
+    "coffee-script": "1.4.x",
+    "mocha": "1.8.x",
+    "sinon": "1.5.x"
+  }
+}

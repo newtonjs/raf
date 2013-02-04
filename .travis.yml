@@ -1,0 +1,20 @@
+# Language/versions
+language: node_js
+node_js:
+ - 0.9
+ - 0.8
+
+# Install (quieten npm)
+install: npm install --silent
+
+# Build script
+script: npm test
+
+# Notifications
+notifications:
+  email: false
+
+# Branches
+branches:
+  only:
+   - master
