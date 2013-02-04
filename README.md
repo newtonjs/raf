@@ -68,4 +68,4 @@ You can find a copy of this license at http://www.opensource.org/licenses/mit
 
 <!-- Links -->
 [travis]: https://travis-ci.org/newtonjs/raf
-[travis-status]: https://travis-ci.org/newtonjs/raf.png?branch=master
+[travis-status]: https://travis-ci.org/newtonjs/raf.png
